@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #f83600 55%, #fe8c00);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .card {
+  background: #fefefe;
+  color: #020202;
+  padding: 1.8em 2.2em;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.33);
+}
+body .card p {
+  margin-top: 0.7em;
+  font-size: 1.125rem;
+}
+body .card .nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+body .card .nav a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.home {
+  color: #000;
+  background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
+  background-position: right;
+  background-size: 0% 100%;
+  background-repeat: repeat-y;
+  transition: background-size 300ms ease-in-out;
+}
+.home:hover {
+  background-size: 100% 100%;
+  background-position: left;
+}
+
+.news {
+  color: #000;
+  background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
+  background-position: center bottom;
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  transition: background-size 300ms ease-in-out;
+}
+.news:hover {
+  background-size: 100% 4px;
+}
+
+.forum {
+  color: #000;
+  background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
+  background-position: bottom left;
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  transition: background-size 300ms ease-in-out;
+}
+.forum:hover {
+  background-size: 100% 4px;
+}
+
+.about {
+  color: #000;
+  background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
+  background-position: bottom;
+  background-size: 100% 4px;
+  background-repeat: repeat-x;
+  transition: background-size 400ms ease-in-out;
+}
+.about:hover {
+  background-size: 100% 50px;
+}
