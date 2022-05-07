@@ -23,7 +23,7 @@ body .card {
   background: #fefefe;
   color: #020202;
   padding: 1.8em 2.2em;
-  width: 500px;
+  width: 1000px;
   border-radius: 20px;
   box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.33);
 }
@@ -45,7 +45,7 @@ body .card .nav a {
   font-size: 1.125rem;
 }
 
-.home {
+.first {
   color: #000;
   background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
   background-position: right;
@@ -53,12 +53,12 @@ body .card .nav a {
   background-repeat: repeat-y;
   transition: background-size 300ms ease-in-out;
 }
-.home:hover {
+.first:hover {
   background-size: 100% 100%;
   background-position: left;
 }
 
-.news {
+.second {
   color: #000;
   background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
   background-position: center bottom;
@@ -66,11 +66,11 @@ body .card .nav a {
   background-repeat: no-repeat;
   transition: background-size 300ms ease-in-out;
 }
-.news:hover {
+.second:hover {
   background-size: 100% 4px;
 }
 
-.forum {
+.third {
   color: #000;
   background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
   background-position: bottom left;
@@ -78,11 +78,11 @@ body .card .nav a {
   background-repeat: no-repeat;
   transition: background-size 300ms ease-in-out;
 }
-.forum:hover {
+.third:hover {
   background-size: 100% 4px;
 }
 
-.about {
+.fourth {
   color: #000;
   background: linear-gradient(45deg, #f5aa4e, #f5aa4e);
   background-position: bottom;
@@ -90,6 +90,6 @@ body .card .nav a {
   background-repeat: repeat-x;
   transition: background-size 400ms ease-in-out;
 }
-.about:hover {
+.fourth:hover {
   background-size: 100% 50px;
 }
